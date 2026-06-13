@@ -122,6 +122,7 @@
 // #define MAG_I2C_INSTANCE     I2CDEV_1
 #define USE_MAG
 #define USE_MAG_MMC560X
+#define USE_MAG_MMC560X_ASYNC_READ
 #define MAG_I2C_INSTANCE     I2CDEV_0
 // TODO: madflight-fc3 claims that the MMC5603 magnetometer on board is not supported by betaflight_2025.12.0-beta, but there is MMC560X options
 // in latest codebase. Need to check if MMC560X support is working correctly in order to use the magnetometer on this board
